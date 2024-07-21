@@ -4,7 +4,9 @@
 This repository is Experment Code for CNN call type classification, Siamese Network call type similarity model
 
 ## Abstract
-As an important branch of deep learning, few-shot Learning does not require a large amount of data but chooses a softer approach to solve problems, where it can be perfectly integrated with techniques such as meta learning and data augmentation. In this repository, I test four algorithms:Matching Network, ProtoNet, MAML and Distribution Propagation Graph NN on four FSL datasets: miniImageNet, Omniglot, CUB-200-2011 and CIFAR-FS.
+Southern Resident Killer Whales (SRKW) are highly intelligent marine mammals facing extinction in the North Pacific. These whales emit three types of sounds: clicks, whistles, and pulsed calls, with over 40 distinct pulsed call types known as their "dialects." However, due to limited and poor-quality data, only nine call types have sufficient annotated recordings for analysis. To address this challenge, this paper proposes a progressive approach to improve SRKW call type identification. Initially, data augmentation techniques were employed to enhance training data volume, leading to a traditional CNN model achieving 97.8% accuracy on 17 call types. Subsequently, a Siamese Network model was developed to infer similarities between call types, achieving state-of-the-art performance with 98.5% accuracy. Finally, the Siamese Network's generalization ability was evaluated on nine additional call types, maintaining high accuracy and recall but with lower precision, which can be improved through manual review and retraining. This study demonstrates that data augmentation and Siamese Networks are effective strategies for overcoming few-shot learning challenges in SRKW call type identification, achieving robust performance even with limited annotated data.
+
+Keywords: Marine Mammal Conservation, Southern Resident Killer Whales (SRKW); Acoustic Classification; Few-Shot Learning (FSL); Convolutional Neural Network (CNN), Data Augmentation, Siamese Network; Similarity measurement; Contrastive Learning; Transfer Learning; Meta Learning.
 
 ## Requirements
 
