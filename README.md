@@ -10,9 +10,9 @@ Keywords: Marine Mammal Conservation, Southern Resident Killer Whales (SRKW); Ac
 
 ## Requirements
 
-CUDA Version: 10.4
+CUDA Version: 11.4
 
-Python : 3.6.9
+Python : 3.11.5
 
 To install dependencies:
 
