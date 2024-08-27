@@ -20,43 +20,17 @@ To install dependencies:
 sudo pip3 install -r requirements.txt
 ```
 ## Dataset
-For your convenience, you can download the datasets directly from links on the left, or you can make them from scratch following the original splits on the right. 
+Original Wave files:
 
-Call Type	Non-Augmented Wave Files	Augmented Wave Files	Testing Wave Files	Remark
-ArgBermHBW	12	60	4	"SX: Southern Resident Killer Whale
-ArgBermHBW: Bermuda Humpback Whales
-DelawSpwale: Delaware Sperm Whale
-Sea wave: Ocean background noise
-TX: Bigg‘s (Transient) Killer Whales in Northern Pacific
-
-"
-DelawSpwale	10	50	10	
-S10	19	48	10	
-S18	16	50	6	
-S1d	28	102	16	
-S2	38	190	12	
-S31	14	46	7	
-S35	4	13	5	
-S36	104	104	10	
-S40	2	5	4	
-S44b	18	90	7	
-S4d	48	239	16	
-S5	3	10	4	
-S6	8	37	11	
-S9	2	10	10	
-Seawave	4	4	4	
-T7	4	20	4	
-Grand Total	334	1078	140	
 ![image](https://github.com/user-attachments/assets/d7343888-5926-4da3-8bd2-e6bbfb13ea36)
 
 
-Experment obtained the following performance on mini-ImageNet, Omniglot, CUB-200-2011 and CIFAR-FS.
+Experment obtained the following performance on 17 In-training call types for CNN, Siamese Network, and 14 out-of-training call types for Siamese Network
+Model Metrics	CNN	Siamese network on in-training call type	Siamese network on out-of-training call type
+Accuracy	97.80%	98.50%	79.70%
+Recall (Sensitivity)	81.40%	89.30%	79.50%
+Specificity	98.80%	99.20%	79.70%
+F1	81.40%	88.80%	44.40%
+Precision	81.40%	88.20%	30.80%
+![image](https://github.com/user-attachments/assets/6facfff5-1792-4ec3-be7b-dc1b3a673147)
 
-**miniImageNet**:
-
-|     Method    |   Backbone   |   5way-1shot   |   5way-5shot   |
-| :-----------: |:------------:|----------------|:--------------:|
-|  MatchingNet  |    ConvNet   |   43.56±0.84   |   55.31± 0.73  |
-|    ProtoNet   |    ConvNet   |   49.42±0.78   |   68.20±0.66   |
-|      MAML     |    ConvNet   |   48.70±1.84   |   55.31±0.73   |
-|      DPGN     |    ConvNet   | 66.01±0.36 | 82.83±0.41 |
