@@ -26,11 +26,6 @@ Original Wave files:
 
 
 Experment obtained the following performance on 17 In-training call types for CNN, Siamese Network, and 14 out-of-training call types for Siamese Network
-Model Metrics	CNN	Siamese network on in-training call type	Siamese network on out-of-training call type
-Accuracy	97.80%	98.50%	79.70%
-Recall (Sensitivity)	81.40%	89.30%	79.50%
-Specificity	98.80%	99.20%	79.70%
-F1	81.40%	88.80%	44.40%
-Precision	81.40%	88.20%	30.80%
+
 ![image](https://github.com/user-attachments/assets/6facfff5-1792-4ec3-be7b-dc1b3a673147)
 
