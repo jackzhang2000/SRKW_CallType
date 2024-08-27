@@ -20,24 +20,12 @@ To install dependencies:
 sudo pip3 install -r requirements.txt
 ```
 ## Dataset
-For your convenience, you can download the datasets directly from links on the left, or you can make them from scratch following the original splits on the right. 
+Original Wave files:
 
-|    Dataset    | Algorithms Paper |
-| :-----------: |:----------------:|
-|  [Mini-ImageNet](https://drive.google.com/open?id=15WuREBvhEbSWo4fTr1r-vMY0C_6QWv4w)  |  [Matching Networks](https://arxiv.org/pdf/1606.04080.pdf)  | 
-|    [Omniglot](https://drive.google.com/file/d/1nVGCTd9ttULRXFezh4xILQ9lUkg0WZCG)   |   [ProtoNet](https://arxiv.org/abs/1703.05175)   |
-|  [CIFAR-FS](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS)  |   [MAML](https://arxiv.org/abs/1703.03400)   |
-|      [CUB-200-2011](https://github.com/wyharveychen/CloserLookFewShot/tree/master/filelists/CUB)     |   [DP GNN](https://arxiv.org/abs/2003.14247)   |
+![image](https://github.com/user-attachments/assets/d7343888-5926-4da3-8bd2-e6bbfb13ea36)
 
 
+Experment obtained the following performance on 17 In-training call types for CNN, Siamese Network, and 14 out-of-training call types for Siamese Network
 
-Experment obtained the following performance on mini-ImageNet, Omniglot, CUB-200-2011 and CIFAR-FS.
+![image](https://github.com/user-attachments/assets/6facfff5-1792-4ec3-be7b-dc1b3a673147)
 
-**miniImageNet**:
-
-|     Method    |   Backbone   |   5way-1shot   |   5way-5shot   |
-| :-----------: |:------------:|----------------|:--------------:|
-|  MatchingNet  |    ConvNet   |   43.56±0.84   |   55.31± 0.73  |
-|    ProtoNet   |    ConvNet   |   49.42±0.78   |   68.20±0.66   |
-|      MAML     |    ConvNet   |   48.70±1.84   |   55.31±0.73   |
-|      DPGN     |    ConvNet   | 66.01±0.36 | 82.83±0.41 |
