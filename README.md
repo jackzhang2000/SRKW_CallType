@@ -22,13 +22,32 @@ sudo pip3 install -r requirements.txt
 ## Dataset
 For your convenience, you can download the datasets directly from links on the left, or you can make them from scratch following the original splits on the right. 
 
-|    Dataset    | Algorithms Paper |
-| :-----------: |:----------------:|
-|  [Mini-ImageNet](https://drive.google.com/open?id=15WuREBvhEbSWo4fTr1r-vMY0C_6QWv4w)  |  [Matching Networks](https://arxiv.org/pdf/1606.04080.pdf)  | 
-|    [Omniglot](https://drive.google.com/file/d/1nVGCTd9ttULRXFezh4xILQ9lUkg0WZCG)   |   [ProtoNet](https://arxiv.org/abs/1703.05175)   |
-|  [CIFAR-FS](https://drive.google.com/file/d/1GjGMI0q3bgcpcB_CjI40fX54WgLPuTpS)  |   [MAML](https://arxiv.org/abs/1703.03400)   |
-|      [CUB-200-2011](https://github.com/wyharveychen/CloserLookFewShot/tree/master/filelists/CUB)     |   [DP GNN](https://arxiv.org/abs/2003.14247)   |
+Call Type	Non-Augmented Wave Files	Augmented Wave Files	Testing Wave Files	Remark
+ArgBermHBW	12	60	4	"SX: Southern Resident Killer Whale
+ArgBermHBW: Bermuda Humpback Whales
+DelawSpwale: Delaware Sperm Whale
+Sea wave: Ocean background noise
+TX: Bigg‘s (Transient) Killer Whales in Northern Pacific
 
+"
+DelawSpwale	10	50	10	
+S10	19	48	10	
+S18	16	50	6	
+S1d	28	102	16	
+S2	38	190	12	
+S31	14	46	7	
+S35	4	13	5	
+S36	104	104	10	
+S40	2	5	4	
+S44b	18	90	7	
+S4d	48	239	16	
+S5	3	10	4	
+S6	8	37	11	
+S9	2	10	10	
+Seawave	4	4	4	
+T7	4	20	4	
+Grand Total	334	1078	140	
+![image](https://github.com/user-attachments/assets/d7343888-5926-4da3-8bd2-e6bbfb13ea36)
 
 
 Experment obtained the following performance on mini-ImageNet, Omniglot, CUB-200-2011 and CIFAR-FS.
